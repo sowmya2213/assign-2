@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <h1>My Portfolio</h1>
+                <button class="theme-toggle" aria-label="Toggle theme">🌓</button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu" aria-label="Menu">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h2>Welcome to My Portfolio</h2>
+                    <p class="animate-text">Hi, I'm a Web Developer</p>
+                    <a href="#projects" class="cta-button">View My Work</a>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate web developer  in HTML, CSS, and JavaScript.</p>
+                        <p>I create responsive and user-friendly websites that deliver great experiences.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill">
+                                <span>HTML</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>CSS</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>JavaScript</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-content">
+                            <h3>Optimize Wireless Network Deployment using Power BI</h3>
+                            <p>Integrated cutting-edge technologies such as Wi-Fi 6 and 5G, boost network capacity and data rates by up to 70%, and 
+effectively reduced signal interference and network congestion to accommodate future demand.</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-content">
+                            <h3>Rollcall (Simplified Attendance System) </h3>
+                            <p> Collected and analyzed product requirements through stakeholder meetings. Assisted in building a product roadmap to plan 
+and prioritize development tasks.</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-content">
+                            <h3>Autotrader E-Business Database Design Project </h3>
+                            <p>Developed a comprehensive top-down Entity-Relationship (ER) diagram and a fully normalized relational database model for 
+Autotrader E-Business using MS Access.</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="SOWMYA LADDIPALLY" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="sowmyaladdipally96@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
